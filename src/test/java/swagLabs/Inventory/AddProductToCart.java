@@ -26,7 +26,8 @@ public class AddProductToCart extends BaseClass{
 		//Step 4:Go to cart
 				ProductPage pp = new ProductPage(driver);
 				pp.clickOnAddToCartBtn();
-				
+		
+		//Step 5: Navigate to cart		
 		//Step 5: Navigate to cart
 				ip.clickOnCartContainerBtn();
 				
